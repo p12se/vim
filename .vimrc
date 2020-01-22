@@ -32,9 +32,11 @@ let g:terraform_fold_sections=1
 "let g:airline_theme='bubblegum'
 
 
-" Theme
 syntax enable
+set number
+
 colorscheme OceanicNext
+
 let g:airline_theme='oceanicnext'
 
 " Define mappings
