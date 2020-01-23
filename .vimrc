@@ -25,6 +25,10 @@ Plug 'mhinz/vim-startify'
 
 Plug 'terryma/vim-multiple-cursors'
 
+Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-surround'
+
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 let g:airline#extensions#tabline#enabled = 1
@@ -34,7 +38,6 @@ let g:terraform_fmt_on_save=1
 let g:terraform_fold_sections=1
 
 "let g:airline_theme='bubblegum'
-
 
 syntax enable
 set number
