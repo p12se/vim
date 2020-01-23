@@ -3,11 +3,11 @@ call plug#begin()
 
 Plug 'fatih/vim-go'
 
-Plug 'shougo/deoplete.nvim'
-Plug 'roxma/nvim-yarp'
-Plug 'roxma/vim-hug-neovim-rpc'
+"Plug 'shougo/deoplete.nvim'
+"Plug 'roxma/nvim-yarp'
+"Plug 'roxma/vim-hug-neovim-rpc'
 
-Plug 'sainnhe/vim-color-forest-night'
+"Plug 'sainnhe/vim-color-forest-night'
 Plug 'sheerun/vim-polyglot'
 
 Plug 'vim-airline/vim-airline'
@@ -19,7 +19,11 @@ Plug 'hashivim/vim-terraform'
 Plug 'vim-syntastic/syntastic'
 Plug 'juliosueiras/vim-terraform-completion'
 
+Plug 'valloric/youcompleteme'
+
 Plug 'mhinz/vim-startify'
+
+Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
